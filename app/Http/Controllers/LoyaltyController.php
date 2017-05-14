@@ -43,7 +43,7 @@ class LoyaltyController extends Controller
 		return $top_patrons = Loyalty::getTopTenPatrons();
 	}
 
-	public function getGamesByPatron(int $patronId){
+	public function getGamesByPatron($patronId){
 
 		$patron_games = DB::select(DB::raw('SELECT TOPTEN."Patron_id","Machines"."Game"
 								FROM 
