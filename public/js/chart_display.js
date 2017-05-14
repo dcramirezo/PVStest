@@ -3,7 +3,7 @@ var TopTenChart, Turnover, patrons_id, topTenData = [];
 
 var getTopTenData = function() {
         $.ajax({
-            url: 'http://localhost:8000'+  '/top_ten',
+            url: 'http://pvs-test-dcramirezo.c9users.io'+  '/top_ten',
             type: 'GET'
         }).done(function(rawData) {
             // Save Data

@@ -12,7 +12,7 @@ function showGames(sel) {
             ],
             "searching": false,
             "ajax": {
-                url: 'http://localhost:8000' +  '/games/' + patron_id,
+                url: 'http://pvs-test-dcramirezo.c9users.io' +  '/games/' + patron_id,
                 type: 'GET',
                 dataSrc:''
             },
