@@ -19,4 +19,4 @@ Route::get('/', 'LoyaltyController@show');
 
 Route::get('/top_ten', 'LoyaltyController@getTopTen');
 
-Route::get('/games/{patronId}', 'LoyaltyController@getGamesByPatron');
+Route::any('/games/{patronId}', 'LoyaltyController@getGamesByPatron');
