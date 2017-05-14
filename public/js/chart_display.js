@@ -3,7 +3,7 @@ var TopTenChart, Turnover, patrons_id, topTenData = [];
 
 var getTopTenData = function() {
         $.ajax({
-            url: 'http://localhost'+  '/top_ten',
+            url: 'top_ten',
             type: 'GET'
         }).done(function(rawData) {
             // Save Data

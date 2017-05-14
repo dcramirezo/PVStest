@@ -12,7 +12,7 @@ function showGames(sel) {
             ],
             "searching": false,
             "ajax": {
-                url: 'http://localhost' +  '/games/' + patron_id,
+                url: 'games/' + patron_id,
                 type: 'GET',
                 dataSrc:''
             },
